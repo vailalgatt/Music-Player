@@ -32,3 +32,17 @@ form {
 songs {
   font: black;
 }
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
